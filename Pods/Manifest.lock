@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (4.3.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - CryptoSwift (0.6.7)
+  - ESPullToRefresh (2.6)
+  - IQKeyboardManagerSwift (4.0.8)
+  - Kingfisher (3.4.0)
+  - NVActivityIndicatorView (3.4)
+  - ObjectMapper (2.2.3)
+  - PermissionScope (1.1.1)
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
+  - SnapKit (3.1.2)
+  - Spring (1.0.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - CryptoSwift (from `https://github.com/krzyzanowskim/CryptoSwift`, branch `master`)
+  - ESPullToRefresh
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - PermissionScope
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  CryptoSwift:
+    :branch: master
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: dcf98f9bf3a632a7f40679b7da46f09681e48526
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  CryptoSwift:
+    :commit: 28456ac3332f66dc32ad2cf31aab84609fa703c8
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CryptoSwift: 8f7b936cfd910257631f30d26e7188fa64e91e97
+  ESPullToRefresh: 85f4990acf87f78c6a1466bbbee7a75d7de24db9
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  Kingfisher: 5690cfb3d1bddf3a98d679a3a34d0b7294974ed2
+  NVActivityIndicatorView: 5754be63ceecd1df8af37d3c088d81872feeb8b8
+  ObjectMapper: d3b3de11267f5d971f390eb8d63dd509116a4329
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: ec75acede60f8013ef3843e0d8bc8ac86c31e442
+
+COCOAPODS: 1.2.0
